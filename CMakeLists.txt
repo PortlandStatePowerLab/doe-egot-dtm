@@ -27,7 +27,14 @@ FetchContent_Declare(
   GIT_TAG        package
 )
 
-FetchContent_MakeAvailable(DCM)
+FetchContent_Declare(
+  GSP
+  GIT_REPOSITORY https://github.com/PortlandStatePowerLab/doe-egot-gsp.git
+  GIT_TAG        package
+)
+
+
+FetchContent_MakeAvailable(DCM GSP)
 
 include(ExternalProject)
 if (NOT TARGET ssl-ca)
