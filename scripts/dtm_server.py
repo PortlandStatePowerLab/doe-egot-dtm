@@ -135,8 +135,8 @@ if __name__ == '__main__':
     if (len(sys.argv) > 1):
         host_port = host_port + int(sys.argv[1])
     host_name = 'localhost'  # DTM Rpi address
-    key_path = dirname + '/private/server.key'
-    cert_path = dirname + '/server.crt'
+    key_path = dirname + '/certs/private/server.key'
+    cert_path = dirname + '/certs/server.crt'
     http_server = HTTPServer((host_name, host_port), MyServer)
     http_server.socket = ssl.wrap_socket(http_server.socket, keyfile=key_path, certfile=cert_path, server_side=True)
     print("Simple Printing SERVER RUNNING ON DTM RASPBERRY PI")

@@ -1,4 +1,3 @@
-
 #include <boost/python.hpp>
 #include <iostream>
 #include <stdlib.h>

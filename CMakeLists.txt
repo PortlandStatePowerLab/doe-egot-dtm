@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.14)
 # project variables
 set(PROJECT_VERSION 1.0.0)
 set(PROJECT_NAME DTM)
+set(ALLOW_DUPLICATE_CUSTOM_TARGETS true)
 
 # This is your project statement. You should always list languages;
 project(
@@ -20,6 +21,20 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 find_package(PythonLibs 3 REQUIRED)
 find_package(Boost COMPONENTS python REQUIRED)
 
+include(ExternalProject)
+if (NOT TARGET ssl-ca)
+  ExternalProject_Add (
+    ssl-ca
+    GIT_REPOSITORY https://github.com/PortlandStatePowerLab/ssl-ca.git
+    GIT_TAG        main
+    CONFIGURE_COMMAND ""
+    BUILD_COMMAND ""
+    INSTALL_COMMAND ""
+    UPDATE_COMMAND COMMAND ${CMAKE_COMMAND} -E copy_directory
+    <SOURCE_DIR>/root-ca ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/certs
+  )
+endif()
+
 include(FetchContent)
 FetchContent_Declare(
   DCM
@@ -33,21 +48,7 @@ FetchContent_Declare(
   GIT_TAG        package
 )
 
-
 FetchContent_MakeAvailable(DCM GSP)
 
-include(ExternalProject)
-if (NOT TARGET ssl-ca)
-  ExternalProject_Add (
-    ssl-ca
-    GIT_REPOSITORY https://github.com/PortlandStatePowerLab/ssl-ca.git
-    GIT_TAG        main
-    CONFIGURE_COMMAND ""
-    BUILD_COMMAND ""
-    INSTALL_COMMAND ""
-    UPDATE_COMMAND COMMAND ${CMAKE_COMMAND} -E copy_directory
-    <SOURCE_DIR>/root-ca/private/ ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/certs
-  )
-endif()
-
 add_subdirectory(src)
+add_subdirectory(tests)
