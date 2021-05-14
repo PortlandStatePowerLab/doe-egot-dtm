@@ -10,7 +10,7 @@ target_include_directories(
 )
 
 add_custom_command(
-    TARGET ${COMPONENT_NAME} POST_BUILD
+    TARGET ${COMPONENT_NAME}
     COMMAND ${CMAKE_COMMAND} -E copy_directory
     ${PROJECT_SOURCE_DIR}/resources/ ${CMAKE_BINARY_DIR}/bin
     ${PROJECT_SOURCE_DIR}/scripts/ ${CMAKE_BINARY_DIR}/bin
