@@ -39,13 +39,13 @@ include(FetchContent)
 FetchContent_Declare(
   DCM
   GIT_REPOSITORY https://github.com/PortlandStatePowerLab/doe-egot-dcm.git
-  GIT_TAG        package
+  GIT_TAG        main
 )
 
 FetchContent_Declare(
   GSP
   GIT_REPOSITORY https://github.com/PortlandStatePowerLab/doe-egot-gsp.git
-  GIT_TAG        package
+  GIT_TAG        main
 )
 
 FetchContent_MakeAvailable(DCM GSP)

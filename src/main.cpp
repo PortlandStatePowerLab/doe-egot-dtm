@@ -1,63 +1,44 @@
 #include <boost/python.hpp>
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/ini_parser.hpp>
 #include <iostream>
 #include <stdlib.h>
 #include <thread>         // std::thread
 #include <string>
+#include <dtm/dtm_server.hpp>
 
-
-using namespace boost::python;
-
-std::string g_program_path;
-
-void GetParentPath(char** arg)
+inline std::string GetParentPath(char** arg)
 {
-    g_program_path = arg[0];
-    std::size_t found = g_program_path.find_last_of("/\\");
-    g_program_path = g_program_path.substr(0,found);
+    std::string path = arg[0];
+    std::size_t found = path.find_last_of("/\\");
+    return path.substr(0,found);
 };
 
-
-void SpawnDTM(const std::string &file_path, int argc, wchar_t **wargv)
+inline void ResetConfig (boost::property_tree::ptree *pt)
 {
-try
-    {
-        Py_Initialize();
-        PySys_SetArgv(argc, wargv);
-        object _mainModule = import("__main__");
-        object _mainNamespace = _mainModule.attr("__dict__");
+    pt->put("DTM.port", 4430);
+    pt->put("DCM.cert", "/certs/client1.crt");
+    std::cout << pt->get<int>("DTM.port") << std::endl;
+    std::cout << pt->get<std::string>("DCM.cert") << std::endl;
+};
 
-        //Testing executing a python script file
-        //exec_file("script.py", _mainNamespace, _mainNamespace);
-        //Run a simple file
-        FILE* PScriptFile = fopen(file_path.c_str(), "r");
-        if(PScriptFile){
-            PyRun_SimpleFile(PScriptFile, file_path.c_str());
-            fclose(PScriptFile);
-        }
-    }
-    catch (error_already_set)
-    {
-        PyErr_Print();
-    }
+void SpawnDTM(int argc, char **argv)
+{
+    DistributedTrustManagment dtm(argc, argv);
 };
 
 int main(int argc, char **argv)
 {
+    std::string config = GetParentPath(argv) + "/../../config.ini";
 
-    wchar_t** wargv = new wchar_t*[argc];
-    for(int i = 0; i < argc; i++)
-    {
-        wargv[i] = Py_DecodeLocale(argv[i], nullptr);
-        if(wargv[i] == nullptr)
-        {
-            return EXIT_FAILURE;
-        }
-    }
+    // Create empty property tree object
+    boost::property_tree::ptree pt;
+    boost::property_tree::read_ini(config, pt);
 
-    GetParentPath(argv);
-    std::string script_path = g_program_path + "/dtm_server.py";
-    std::thread dtm (SpawnDTM, script_path, argc, wargv);
+    ResetConfig(&pt);
+    boost::property_tree::write_ini(config, pt);
+    std::thread T1 (SpawnDTM, argc, argv);
     
     // synchronize threads:
-    dtm.join(); 
+    T1.join(); 
 }

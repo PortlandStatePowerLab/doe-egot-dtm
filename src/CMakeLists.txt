@@ -1,12 +1,17 @@
+add_subdirectory(dtm)
+
 set(COMPONENT_NAME dtm)
+
 add_executable(${COMPONENT_NAME} main.cpp)
 
 # Set up the libraries and header search paths for this target
-target_link_libraries(${COMPONENT_NAME} ${Boost_LIBRARIES} ${PYTHON_LIBRARIES} pthread)
+target_link_libraries(${COMPONENT_NAME} PUBLIC
+    dtm_server
+    pthread
+)
 target_include_directories(
     ${COMPONENT_NAME} PUBLIC 
-    ${Boost_INCLUDE_DIRS}
-    ${PYTHON_INCLUDE_DIRS}
+    ${dtm_server_INCLUDE_DIRS}
 )
 
 add_custom_command(
