@@ -12,6 +12,10 @@ host_name = 'localhost'  # DTM Rpi address
 host_port = 4430
 posts_received = 0
 post_data = ''
+host_port = 4430
+host_name = 'localhost'  # DTM Rpi address
+key_path = dirname + '/certs/private/server.key'
+cert_path = dirname + '/certs/server.crt'
 LOG_FILE = 'Trustlog_testing1.xml'
 
 
@@ -217,8 +221,9 @@ class MyServer(BaseHTTPRequestHandler):
 this is main, just run the server
 """
 if __name__ == '__main__':
-	http_server = ThreadingHTTPServer((host_name, host_port), MyServer)
 
+	http_server = ThreadingHTTPServer((host_name, host_port), MyServer)
+	http_server.socket = ssl.wrap_socket(http_server.socket, keyfile=key_path, certfile=cert_path, server_side=True)
 
 	print("Server Starts - %s:%s" % (host_name, host_port))
 
