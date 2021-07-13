@@ -9,7 +9,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer, ThreadingHTTPServer
 import ssl
 
 host_name = 'localhost'  # DTM Rpi address
-host_port = 8886
+host_port = 4430
 posts_received = 0
 post_data = ''
 LOG_FILE = 'Trustlog_testing1.xml'
