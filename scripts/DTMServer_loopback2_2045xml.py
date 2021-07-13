@@ -8,6 +8,7 @@ import datetime
 from http.server import BaseHTTPRequestHandler, HTTPServer, ThreadingHTTPServer
 import ssl
 
+dirname, filename = os.path.split(os.path.abspath(__file__))
 host_name = 'localhost'  # DTM Rpi address
 host_port = 4430
 posts_received = 0
