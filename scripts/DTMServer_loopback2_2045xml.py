@@ -203,7 +203,8 @@ class MyServer(BaseHTTPRequestHandler):
 		# class data members
 		global post_data
 		posts_received += 1  # iterate count of POST requests received
-		post_data = self.rfile.read().decode("utf-8")  # Get the data
+		content_length = int(self.headers['Content-Length'])
+		post_data = self.rfile.read(content_length).decode("utf-8")  # Get the data
 		print(" POST REQUEST RECEIVED. raw:")
 		print(post_data)
 		print(posts_received)
