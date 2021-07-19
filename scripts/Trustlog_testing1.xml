@@ -1,3 +1,385 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <TrustLog>
-</TrustLog>
+<dtm_log_entry logged="2021-07-15 19:46:36.110690">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626374795</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 19:46:39.365783">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 3105</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 19:47:52.066938">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetNameplate</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626374871</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 19:47:52.437703">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 258</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 19:49:44.297823">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626374984</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 19:49:44.699101">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 0, cumulative amount: 3, instantaneous rate: 2, elapsed: 284</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 19:49:48.166121">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetNameplate</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626374988</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 19:49:48.519022">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 238</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:02:02.013924">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379321</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:02:02.470220">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 0, cumulative amount: 3, instantaneous rate: 2, elapsed: 243</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:02:16.336723">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379336</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:02:16.720681">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 0, cumulative amount: 3, instantaneous rate: 2, elapsed: 264</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:02:19.682170">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetNameplate</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379339</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:02:20.052127">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 248</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:04:04.687724">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetNameplate</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379444</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:04:05.051902">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 242</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:06:27.168854">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetNameplate</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379587</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:06:27.550062">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 252</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:07:57.741291">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379677</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:07:58.195162">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 6, cumulative amount: 2, instantaneous rate: 0, elapsed: 320</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:08:01.504303">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetNameplate</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379681</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:08:01.932351">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 299</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:09:30.449706">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetNameplate</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379770</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:09:30.919648">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 340</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-15 21:09:39.564968">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626379779</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-15 21:09:39.979704">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 6, cumulative amount: 2, instantaneous rate: 0, elapsed: 282</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-16 21:33:25.787776">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626467605</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-16 21:33:26.190541">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 257</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:33:28.395610">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467608</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:33:28.796024">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 264</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-16 21:34:02.890494">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626467642</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-16 21:34:03.319116">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 6, cumulative amount: 1, instantaneous rate: 0, elapsed: 293</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:34:04.588428">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467644</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:34:05.061124">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 323</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:34:42.194107">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467682</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:34:42.589660">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 255</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:34:53.386512">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467693</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:34:53.859623">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 319</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:35:21.320040">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467721</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:35:21.726813">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 261</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:36:06.450450">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467766</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:36:06.857280">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 259</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:36:23.256471">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467783</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:36:23.618840">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 216</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:36:59.049621">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467818</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:36:59.428950">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045: , elapsed: 223</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:37:23.484818">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626467843</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:37:23.955562">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:  device type: 2, vendor ID: 17493, firmware date: 2000-0-0, elapsed: 310</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:40:11.105644">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626468010</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:40:11.537570">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:  device type: 2, vendor ID: 17493, firmware date: 2000-0-0, elapsed: 280</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-16 21:40:13.767599">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626468013</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-16 21:40:14.189728">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 6, cumulative amount: 1, instantaneous rate: 0, elapsed: 272</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:40:19.707118">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626468019</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:40:20.161640">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:  device type: 2, vendor ID: 17493, firmware date: 2000-0-0, elapsed: 287</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-16 21:40:39.866034">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<command>
+				<type>GetEnergy</type>
+			</command>
+		</content>
+		<DCM_timestamp>1626468039</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-16 21:40:40.322124">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:   commodity code: 6, cumulative amount: 1, instantaneous rate: 0, elapsed: 303</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:40:45.305088">
+	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>
+		<message>
+			<from>DCM</from>
+			<to>DER</to>
+			<DCM_timestamp>1626468045</DCM_timestamp>
+		</message>
+	</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_ERROR logged="2021-07-16 21:40:45.806730">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>CTA2045:  device type: 2, vendor ID: 17493, firmware date: 2000-0-0, elapsed: 334</invalid_msg_contents>
+</dtm_log_ERROR></TrustLog>
