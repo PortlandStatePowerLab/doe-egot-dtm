@@ -1,123 +1,256 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <TrustLog>
-</dtm_log_entry><dtm_log_ERROR logged="2021-07-19 20:55:29.209047">
-	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
-	<invalid_msg_contents>
-		<message>
-			<from>DCM</from>
-			<to>DER</to>
-			<DCM_timestamp>1626724529</DCM_timestamp>
-		</message>
-	</invalid_msg_contents>
-</dtm_log_ERROR><dtm_log_entry logged="2021-07-19 20:55:29.711171">
+<dtm_log_entry logged="2021-07-22 18:37:06.840023">
 	<message>
-		<from>DCM</from>
-		<to>DER</to>
+		<from>DER</from>
+		<to>DCM</to>
 		<content>
-			<GetNameplate>
-				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 297</body>
-			</GetNameplate>
+			<AckReceived>
+				<body>ack received: 3, supports data link messages</body>
+			</AckReceived>
 		</content>
-		<DCM_timestamp>1626724529</DCM_timestamp>
+		<DCM_timestamp>1626975426</DCM_timestamp>
 	</message>
-</dtm_log_entry><dtm_log_ERROR logged="2021-07-19 20:55:32.766347">
-	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
-	<invalid_msg_contents>
-		<message>
-			<from>DCM</from>
-			<to>DER</to>
-			<DCM_timestamp>1626724532</DCM_timestamp>
-		</message>
-	</invalid_msg_contents>
-</dtm_log_ERROR><dtm_log_entry logged="2021-07-19 20:55:33.245497">
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:07.153723">
 	<message>
-		<from>DCM</from>
-		<to>DER</to>
+		<from>DER</from>
+		<to>DCM</to>
 		<content>
-			<GetNameplate>
-				<body>CTA2045:   commodity code: 0, cumulative amount: 2, instantaneous rate: 3, elapsed: 265</body>
-			</GetNameplate>
+			<AckReceived>
+				<body>ack received: 1</body>
+			</AckReceived>
 		</content>
-		<DCM_timestamp>1626724533</DCM_timestamp>
+		<DCM_timestamp>1626975427</DCM_timestamp>
 	</message>
-</dtm_log_entry><dtm_log_ERROR logged="2021-07-19 20:55:34.607107">
-	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
-	<invalid_msg_contents>
-		<message>
-			<from>DCM</from>
-			<to>DER</to>
-			<DCM_timestamp>1626724534</DCM_timestamp>
-		</message>
-	</invalid_msg_contents>
-</dtm_log_ERROR><dtm_log_entry logged="2021-07-19 20:55:35.098956">
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:07.493612">
 	<message>
-		<from>DCM</from>
-		<to>DER</to>
+		<from>DER</from>
+		<to>DCM</to>
 		<content>
-			<GetNameplate>
-				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 277</body>
-			</GetNameplate>
+			<AckReceived>
+				<body>ack received: 4, supports intermediate messages</body>
+			</AckReceived>
 		</content>
-		<DCM_timestamp>1626724534</DCM_timestamp>
+		<DCM_timestamp>1626975427</DCM_timestamp>
 	</message>
-</dtm_log_entry><dtm_log_ERROR logged="2021-07-19 20:55:36.256325">
-	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
-	<invalid_msg_contents>
-		<message>
-			<from>DCM</from>
-			<to>DER</to>
-			<DCM_timestamp>1626724536</DCM_timestamp>
-		</message>
-	</invalid_msg_contents>
-</dtm_log_ERROR><dtm_log_entry logged="2021-07-19 20:55:36.724561">
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:07.853754">
 	<message>
-		<from>DCM</from>
-		<to>DER</to>
+		<from>DER</from>
+		<to>DCM</to>
 		<content>
-			<GetNameplate>
-				<body>CTA2045:   commodity code: 0, cumulative amount: 2, instantaneous rate: 3, elapsed: 256</body>
-			</GetNameplate>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
 		</content>
-		<DCM_timestamp>1626724536</DCM_timestamp>
+		<DCM_timestamp>1626975427</DCM_timestamp>
 	</message>
-</dtm_log_entry><dtm_log_ERROR logged="2021-07-19 20:55:37.822755">
-	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
-	<invalid_msg_contents>
-		<message>
-			<from>DCM</from>
-			<to>DER</to>
-			<DCM_timestamp>1626724537</DCM_timestamp>
-		</message>
-	</invalid_msg_contents>
-</dtm_log_ERROR><dtm_log_entry logged="2021-07-19 20:55:38.385071">
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:25.271552">
 	<message>
-		<from>DCM</from>
-		<to>DER</to>
+		<from>DER</from>
+		<to>DCM</to>
 		<content>
-			<GetNameplate>
-				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 336</body>
-			</GetNameplate>
+			<AckReceived>
+				<body>ack received: 0</body>
+			</AckReceived>
 		</content>
-		<DCM_timestamp>1626724538</DCM_timestamp>
+		<DCM_timestamp>1626975445</DCM_timestamp>
 	</message>
-</dtm_log_entry><dtm_log_ERROR logged="2021-07-19 20:56:04.851138">
-	<error_type>INCOMPLETE/INCORRECT XML MSG RECEIVED</error_type>
-	<invalid_msg_contents>
-		<message>
-			<from>DCM</from>
-			<to>DER</to>
-			<DCM_timestamp>1626724564</DCM_timestamp>
-		</message>
-	</invalid_msg_contents>
-</dtm_log_ERROR><dtm_log_entry logged="2021-07-19 20:56:05.318967">
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:31.586002">
 	<message>
 		<from>DCM</from>
 		<to>DER</to>
 		<content>
-			<GetNameplate>
-				<body>CTA2045:   commodity code: 0, cumulative amount: 2, instantaneous rate: 3, elapsed: 237</body>
-			</GetNameplate>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
 		</content>
-		<DCM_timestamp>1626724565</DCM_timestamp>
+		<DCM_timestamp>1626975451</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:31.777228">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626975451</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:31.948004">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 7, cumulative amount: 2, instantaneous rate: 0, elapsed: 244</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1626975451</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:33.107340">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetNameplateCommand>
+				<body>GetNameplate</body>
+			</GetNameplateCommand>
+		</content>
+		<DCM_timestamp>1626975452</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:33.322469">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626975453</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:33.515067">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetNameplateResponse>
+				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 281</body>
+			</GetNameplateResponse>
+		</content>
+		<DCM_timestamp>1626975453</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:34.715201">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1626975454</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:34.993479">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626975454</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:35.180131">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 7, cumulative amount: 2, instantaneous rate: 0, elapsed: 327</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1626975455</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:36.205219">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetNameplateCommand>
+				<body>GetNameplate</body>
+			</GetNameplateCommand>
+		</content>
+		<DCM_timestamp>1626975456</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:36.464565">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626975456</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:36.656238">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetNameplateResponse>
+				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 309</body>
+			</GetNameplateResponse>
+		</content>
+		<DCM_timestamp>1626975456</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:38.094793">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1626975457</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:38.332755">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626975458</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:38.521307">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 7, cumulative amount: 2, instantaneous rate: 0, elapsed: 289</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1626975458</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:39.883049">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetNameplateCommand>
+				<body>GetNameplate</body>
+			</GetNameplateCommand>
+		</content>
+		<DCM_timestamp>1626975459</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:40.091032">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626975459</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 18:37:40.283823">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetNameplateResponse>
+				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 252</body>
+			</GetNameplateResponse>
+		</content>
+		<DCM_timestamp>1626975460</DCM_timestamp>
 	</message>
 </dtm_log_entry></TrustLog>
