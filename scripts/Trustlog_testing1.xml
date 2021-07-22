@@ -253,4 +253,476 @@
 		</content>
 		<DCM_timestamp>1626975460</DCM_timestamp>
 	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:18:08.892176">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 3, supports data link messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626977888</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:18:09.220233">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 1</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626977889</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:18:09.586469">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 4, supports intermediate messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626977889</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:18:09.906510">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626977889</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:01.242603">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 3, supports data link messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978301</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:01.575990">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 1</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978301</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:01.976608">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 4, supports intermediate messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978301</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:02.309005">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978302</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:04.618576">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1626978304</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:04.893180">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978304</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:05.093232">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 7, cumulative amount: 2, instantaneous rate: 0, elapsed: 322</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1626978304</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:06.154084">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetNameplateCommand>
+				<body>GetNameplate</body>
+			</GetNameplateCommand>
+		</content>
+		<DCM_timestamp>1626978306</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:06.480569">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978306</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:06.692857">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetNameplateResponse>
+				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 372</body>
+			</GetNameplateResponse>
+		</content>
+		<DCM_timestamp>1626978306</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:15.066049">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<ImportEnergyCommand>
+				<body>ImportEnergy</body>
+			</ImportEnergyCommand>
+		</content>
+		<DCM_timestamp>1626978314</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:15.428071">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 9</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978315</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-22 19:25:15.598394">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;message&gt;
+    &lt;from&gt;DER&lt;/from&gt;
+    &lt;to&gt;DCM&lt;/to&gt;
+    &lt;content&gt;
+        &lt;App Ack Received&gt;
+            &lt;body&gt;AppAck&lt;/body&gt;
+        &lt;/App Ack Received&gt;
+    &lt;/content&gt;
+    &lt;DCM_timestamp&gt;1626978315&lt;/DCM_timestamp&gt;
+&lt;/message&gt;
+</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-22 19:25:17.122181">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<ExportEnergyCommand>
+				<body>ExportEnergy</body>
+			</ExportEnergyCommand>
+		</content>
+		<DCM_timestamp>1626978316</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:17.378653">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 7</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978317</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-22 19:25:17.561746">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;message&gt;
+    &lt;from&gt;DER&lt;/from&gt;
+    &lt;to&gt;DCM&lt;/to&gt;
+    &lt;content&gt;
+        &lt;App Ack Received&gt;
+            &lt;body&gt;AppAck&lt;/body&gt;
+        &lt;/App Ack Received&gt;
+    &lt;/content&gt;
+    &lt;DCM_timestamp&gt;1626978317&lt;/DCM_timestamp&gt;
+&lt;/message&gt;
+</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-22 19:25:18.555111">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<IdleCommand>
+				<body>Idle</body>
+			</IdleCommand>
+		</content>
+		<DCM_timestamp>1626978318</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:18.877047">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 6</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978318</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-22 19:25:19.048832">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;message&gt;
+    &lt;from&gt;DER&lt;/from&gt;
+    &lt;to&gt;DCM&lt;/to&gt;
+    &lt;content&gt;
+        &lt;App Ack Received&gt;
+            &lt;body&gt;AppAck&lt;/body&gt;
+        &lt;/App Ack Received&gt;
+    &lt;/content&gt;
+    &lt;DCM_timestamp&gt;1626978318&lt;/DCM_timestamp&gt;
+&lt;/message&gt;
+</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-22 19:25:20.430534">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<CriticalPeakEventCommand>
+				<body>CriticalPeakEvent</body>
+			</CriticalPeakEventCommand>
+		</content>
+		<DCM_timestamp>1626978320</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:20.724043">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 5</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978320</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-22 19:25:20.896538">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;message&gt;
+    &lt;from&gt;DER&lt;/from&gt;
+    &lt;to&gt;DCM&lt;/to&gt;
+    &lt;content&gt;
+        &lt;App Ack Received&gt;
+            &lt;body&gt;AppAck&lt;/body&gt;
+        &lt;/App Ack Received&gt;
+    &lt;/content&gt;
+    &lt;DCM_timestamp&gt;1626978320&lt;/DCM_timestamp&gt;
+&lt;/message&gt;
+</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-22 19:25:24.617840">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<IdleCommand>
+				<body>Idle</body>
+			</IdleCommand>
+		</content>
+		<DCM_timestamp>1626978324</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:24.908835">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 6</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978324</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-22 19:25:25.093634">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;message&gt;
+    &lt;from&gt;DER&lt;/from&gt;
+    &lt;to&gt;DCM&lt;/to&gt;
+    &lt;content&gt;
+        &lt;App Ack Received&gt;
+            &lt;body&gt;AppAck&lt;/body&gt;
+        &lt;/App Ack Received&gt;
+    &lt;/content&gt;
+    &lt;DCM_timestamp&gt;1626978324&lt;/DCM_timestamp&gt;
+&lt;/message&gt;
+</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-22 19:25:26.761407">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<ExportEnergyCommand>
+				<body>ExportEnergy</body>
+			</ExportEnergyCommand>
+		</content>
+		<DCM_timestamp>1626978326</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:27.074203">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 7</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978326</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-22 19:25:27.251600">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;message&gt;
+    &lt;from&gt;DER&lt;/from&gt;
+    &lt;to&gt;DCM&lt;/to&gt;
+    &lt;content&gt;
+        &lt;App Ack Received&gt;
+            &lt;body&gt;AppAck&lt;/body&gt;
+        &lt;/App Ack Received&gt;
+    &lt;/content&gt;
+    &lt;DCM_timestamp&gt;1626978327&lt;/DCM_timestamp&gt;
+&lt;/message&gt;
+</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-22 19:25:28.551392">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<ImportEnergyCommand>
+				<body>ImportEnergy</body>
+			</ImportEnergyCommand>
+		</content>
+		<DCM_timestamp>1626978328</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:28.833013">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 9</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978328</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_ERROR logged="2021-07-22 19:25:29.018916">
+	<error_type>UN-PARSABLE/NON-XML MSG RECEIVED</error_type>
+	<invalid_msg_contents>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;message&gt;
+    &lt;from&gt;DER&lt;/from&gt;
+    &lt;to&gt;DCM&lt;/to&gt;
+    &lt;content&gt;
+        &lt;App Ack Received&gt;
+            &lt;body&gt;AppAck&lt;/body&gt;
+        &lt;/App Ack Received&gt;
+    &lt;/content&gt;
+    &lt;DCM_timestamp&gt;1626978328&lt;/DCM_timestamp&gt;
+&lt;/message&gt;
+</invalid_msg_contents>
+</dtm_log_ERROR><dtm_log_entry logged="2021-07-22 19:25:30.262544">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetNameplateCommand>
+				<body>GetNameplate</body>
+			</GetNameplateCommand>
+		</content>
+		<DCM_timestamp>1626978330</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:30.540111">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978330</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:30.777938">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetNameplateResponse>
+				<body>CTA2045:  device type: 0, vendor ID: 17493, firmware date: 2001-1-1, elapsed: 335</body>
+			</GetNameplateResponse>
+		</content>
+		<DCM_timestamp>1626978330</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:32.702491">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1626978332</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:32.969591">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1626978332</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-07-22 19:25:33.202146">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 7, cumulative amount: 2, instantaneous rate: 0, elapsed: 311</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1626978333</DCM_timestamp>
+	</message>
 </dtm_log_entry></TrustLog>
