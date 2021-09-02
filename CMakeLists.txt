@@ -19,7 +19,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 # Find python and Boost - both are required dependencies
 find_package(PythonLibs 3 REQUIRED)
-find_package(Boost COMPONENTS python REQUIRED)
+find_package(Boost COMPONENTS python3 REQUIRED)
 
 include(ExternalProject)
 if (NOT TARGET ssl-ca)
