@@ -550,4 +550,807 @@
 		</content>
 		<DCM_timestamp>1626985388</DCM_timestamp>
 	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:01:27.754067">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<CTA2045_Startup>
+				<body>Startup... Initiating CTA2045 Communications</body>
+			</CTA2045_Startup>
+		</content>
+		<DCM_timestamp>1630620087</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:01:29.023001">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Startup>
+				<body>DCM system starting up</body>
+			</DCM_Startup>
+		</content>
+		<DCM_timestamp>1630620088</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:01:38.676991">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620098</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:01:38.910771">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045: , elapsed: 201</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1630620098</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:03:00.063702">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620180</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:03:00.340114">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045: , elapsed: 243</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1630620180</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:03:12.545208">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Shutdown>
+				<body>DCM system shutting down</body>
+			</DCM_Shutdown>
+		</content>
+		<DCM_timestamp>1630620192</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:39.840313">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<CTA2045_Startup>
+				<body>Startup... Initiating CTA2045 Communications</body>
+			</CTA2045_Startup>
+		</content>
+		<DCM_timestamp>1630620399</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.065468">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 3, supports data link messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.269447">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 1</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.317054">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 3</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.344488">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MaxPayloadResponse>
+				<body>max payload response received</body>
+			</MaxPayloadResponse>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.577596">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 4, supports intermediate messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.791258">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.865784">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 2</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:06:40.943830">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Startup>
+				<body>DCM system starting up</body>
+			</DCM_Startup>
+		</content>
+		<DCM_timestamp>1630620400</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:27.335726">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620447</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:27.618558">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620447</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:27.685789">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 2</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620447</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:27.753176">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 0, cumulative amount: 0, instantaneous rate: 0 commodity code: 7, cumulative amount: 50000, instantaneous rate: 0, elapsed: 383</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1630620447</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:41.299651">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetNameplateCommand>
+				<body>GetNameplate</body>
+			</GetNameplateCommand>
+		</content>
+		<DCM_timestamp>1630620461</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:41.503615">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620461</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:41.579297">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 2</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620461</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:41.647813">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetNameplateResponse>
+				<body>CTA2045:  device type: 2, vendor ID: 0, firmware date: 2030-3-12, elapsed: 309</body>
+			</GetNameplateResponse>
+		</content>
+		<DCM_timestamp>1630620461</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:43.124321">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<ImportEnergyCommand>
+				<body>ImportEnergy</body>
+			</ImportEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620463</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:43.464774">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 0</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620463</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:43.517855">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AppAck>
+				<body>app ack received</body>
+			</AppAck>
+		</content>
+		<DCM_timestamp>1630620463</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:47.251037">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<ExportEnergyCommand>
+				<body>ExportEnergy</body>
+			</ExportEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620467</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:48.657330">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 0</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620468</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:48.713034">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AppAck>
+				<body>app ack received</body>
+			</AppAck>
+		</content>
+		<DCM_timestamp>1630620468</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:50.883937">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<ImportEnergyCommand>
+				<body>ImportEnergy</body>
+			</ImportEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620470</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:51.175252">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 9</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620471</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:51.219792">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AppAck>
+				<body>app ack received</body>
+			</AppAck>
+		</content>
+		<DCM_timestamp>1630620471</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:53.981656">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<IdleCommand>
+				<body>Idle</body>
+			</IdleCommand>
+		</content>
+		<DCM_timestamp>1630620473</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:54.212469">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 6</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620474</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:54.263023">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AppAck>
+				<body>app ack received</body>
+			</AppAck>
+		</content>
+		<DCM_timestamp>1630620474</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:55.159499">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<CriticalPeakEventCommand>
+				<body>CriticalPeakEvent</body>
+			</CriticalPeakEventCommand>
+		</content>
+		<DCM_timestamp>1630620475</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:55.388431">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 5</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620475</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:07:55.438697">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AppAck>
+				<body>app ack received</body>
+			</AppAck>
+		</content>
+		<DCM_timestamp>1630620475</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:10:59.328041">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620659</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:10:59.643926">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045: , elapsed: 278</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1630620659</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:11:03.733866">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 0</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620663</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:11:03.797433">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 2</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620663</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:11:26.178726">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620686</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:11:26.419086">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620686</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:11:26.480446">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 2</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620686</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:11:26.552542">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 0, cumulative amount: 0, instantaneous rate: 0 commodity code: 7, cumulative amount: 50000, instantaneous rate: 0, elapsed: 321</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1630620686</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:29.738674">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Shutdown>
+				<body>DCM system shutting down</body>
+			</DCM_Shutdown>
+		</content>
+		<DCM_timestamp>1630620749</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:50.235574">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<CTA2045_Startup>
+				<body>Startup... Initiating CTA2045 Communications</body>
+			</CTA2045_Startup>
+		</content>
+		<DCM_timestamp>1630620770</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:50.484446">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 3, supports data link messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620770</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:50.691075">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 1</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620770</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:50.739550">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 3</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620770</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:50.772310">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MaxPayloadResponse>
+				<body>max payload response received</body>
+			</MaxPayloadResponse>
+		</content>
+		<DCM_timestamp>1630620770</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:51.111074">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 4, supports intermediate messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620771</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:51.405569">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620771</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:51.481332">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 2</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620771</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:51.558132">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Startup>
+				<body>DCM system starting up</body>
+			</DCM_Startup>
+		</content>
+		<DCM_timestamp>1630620771</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:52.477543">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620772</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:52.654792">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620772</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:52.719996">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MsgTypeSupportedRcvd>
+				<body>message type supported received: 2</body>
+			</MsgTypeSupportedRcvd>
+		</content>
+		<DCM_timestamp>1630620772</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:12:52.793039">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 0, cumulative amount: 0, instantaneous rate: 0 commodity code: 7, cumulative amount: 50000, instantaneous rate: 0, elapsed: 258</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1630620772</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:15.502125">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Shutdown>
+				<body>DCM system shutting down</body>
+			</DCM_Shutdown>
+		</content>
+		<DCM_timestamp>1630620795</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:53.945037">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<CTA2045_Startup>
+				<body>Startup... Initiating CTA2045 Communications</body>
+			</CTA2045_Startup>
+		</content>
+		<DCM_timestamp>1630620833</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:54.224628">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 3, supports data link messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620834</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:54.532391">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 1</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620834</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:54.580177">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<MaxPayloadResponse>
+				<body>max payload response received</body>
+			</MaxPayloadResponse>
+		</content>
+		<DCM_timestamp>1630620834</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:54.856317">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 4, supports intermediate messages</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620834</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:55.143950">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 15</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620835</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:13:55.268440">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Startup>
+				<body>DCM system starting up</body>
+			</DCM_Startup>
+		</content>
+		<DCM_timestamp>1630620835</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:14:01.872368">
+	<message>
+		<from>DCM</from>
+		<to>DER</to>
+		<content>
+			<GetEnergyCommand>
+				<body>GetEnergy</body>
+			</GetEnergyCommand>
+		</content>
+		<DCM_timestamp>1630620841</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:14:02.126097">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<AckReceived>
+				<body>ack received: 16</body>
+			</AckReceived>
+		</content>
+		<DCM_timestamp>1630620842</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:14:02.229367">
+	<message>
+		<from>DER</from>
+		<to>DCM</to>
+		<content>
+			<GetEnergyResponse>
+				<body>CTA2045:   commodity code: 0, cumulative amount: 0, instantaneous rate: 0 commodity code: 7, cumulative amount: 50000, instantaneous rate: 0, elapsed: 309</body>
+			</GetEnergyResponse>
+		</content>
+		<DCM_timestamp>1630620842</DCM_timestamp>
+	</message>
+</dtm_log_entry><dtm_log_entry logged="2021-09-02 15:14:11.251907">
+	<message>
+		<from>DCM</from>
+		<to>DTM</to>
+		<content>
+			<DCM_Shutdown>
+				<body>DCM system shutting down</body>
+			</DCM_Shutdown>
+		</content>
+		<DCM_timestamp>1630620851</DCM_timestamp>
+	</message>
 </dtm_log_entry></TrustLog>
