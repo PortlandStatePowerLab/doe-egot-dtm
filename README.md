@@ -3,7 +3,7 @@ Engery Grid of Things: Distributed Trust Management
 
 ## DTM http Server and DCM http Client 
 
-Developed by Whitman Spitzer 
+Developed by Blue Spitzer 
 
 Raspi implementation for the DTM and DCM Raspberry Pi prototypes, written in Python 3, using standard library objects. Find in DTM-Server > raspi_implementation
 
